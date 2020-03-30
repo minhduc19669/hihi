@@ -3,7 +3,7 @@
     var context=canvas.getContext('2d');
     var gameOver=false;
     var score=0;
-    const MAX_score=10;
+    const MAX_score=20;
     var Racket=function(x,y,width,height,speed){
         this.width=width;
         this.height=height;
